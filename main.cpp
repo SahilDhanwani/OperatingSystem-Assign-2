@@ -42,11 +42,7 @@ int main() {
         arr[i] = p1;
     }
 
-    // Sort the array based on arrival time
     sort(arr, arr + n, compareByArrivalTime);
-
-    // for (int i = 0; i < n; i++) 
-    //     cout << arr[i].id << " " << arr[i].arrival_time << " " << arr[i].burst_time << endl;
 
     int current_time = 0;
     arr[0].waiting_time = 0;
