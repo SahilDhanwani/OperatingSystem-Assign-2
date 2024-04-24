@@ -29,7 +29,7 @@ bool compareByArrivalTime(const process& p1, const process& p2) {
 
 int main() {
     int n;
-    cout << "Enter the number of processes: ";
+    cout << "Enter the number of processes : ";
     cin >> n;
 
     process arr[n];
